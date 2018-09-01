@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "version": "1.1.0",
+  "name": "Privacy Enhanced Mode for Embedded YouTube",
+  "description": "Enables Privacy Enhanced Mode(“YouTube no-cookie”) for all YouTube videos embeded around the web.",
+  "author": "Daniel Aleksandersen",
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": [
+      "scripts/sync_handler.js",
+      "scripts/redirector.js"
+    ]
+  },
+  "icons": {
+    "16": "icon.svg",
+    "24": "icon.svg",
+    "32": "icon.svg",
+    "64": "icon.svg",
+    "128": "icon.svg",
+    "256": "icon.svg"
+},
+  "applications": {
+    "gecko": {
+      "id": "{2cb01f46-09e0-488e-b40e-71c2b659e12b}",
+      "strict_min_version": "60.0"
+    }
+  },
+  "options_ui": {
+    "page": "options.html"
+  }
+}
