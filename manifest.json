@@ -4,7 +4,7 @@
   "name": "Privacy Enhanced Mode for Embedded YouTube",
   "description": "Enables Privacy Enhanced Mode(“YouTube no-cookie”) for all YouTube videos embeded around the web.",
   "author": "Daniel Aleksandersen",
-  "homepage_url": "https://www.daniel.priv.no/web-extensions/youtube-nocookie",
+  "homepage_url": "https://www.daniel.priv.no/web-extensions/youtube-nocookie.html",
   "permissions": [
     "<all_urls>",
     "storage",
