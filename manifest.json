@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "name": "Privacy Enhanced Mode for Embedded YouTube",
   "description": "Enables Privacy Enhanced Mode(“YouTube no-cookie”) for all YouTube videos embeded around the web.",
   "author": "Daniel Aleksandersen",
