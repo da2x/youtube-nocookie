@@ -2,25 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta content="light dark" name="color-scheme">
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <title>Extension</title>
     <script src="scripts/options.js"></script>
     <style>
       :root{height:100%;}
-      :root,html,body{background-color:rgb(251,251,254);color:rgb(28,27,34)font-family:'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;font-size:14px;margin:0;padding:0.5em;}a,a:visited{color:blue;}ins{font-weight:bold;text-decoration:none}.sync-label{display:none;}
+      :root,html,body{background-color:rgb(251,251,254);color:rgb(28,27,34);color-scheme:light dark;font-family:'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;font-size:14px;margin:0;padding:0.5em;}a,a:visited{color:blue;}ins{font-weight:bold;text-decoration:none}.sync-label{display:none;}
+    </style>
+    <style media="(prefers-color-scheme:dark)">
+      :root,html,body{background-color:rgb(28,27,34);color:rgb(251,251,254);}a,a:visited{color:#9e9eff;}
     </style>
   </head>
   <body>
     <section>
       <p>
-        This extension doesn’t have any user-configurable options.
+        This extension doesn’t have any options.
       </p>
       <p>
         The extension has improved your privacy for <ins id="count">0</ins> embedded videos on this device<span id="sync-label"> and <ins id="sync-count">0</ins> across all your Firefox Sync devices</span>.
       </p>
       <p>
         This is an open-source extension (<a href="COPYING" type="text/plain"><abbr title="General Public License Version 3 Only">GPLv3-Only</abbr> license</a>.)
-        You can find the source-code, file bugs, and contribute code via <a href="https://github.com/da2x/youtube-nocookie">GitHub</a>.
+        You can find the source-code, file bugs, and contribute code on <a href="https://github.com/da2x/youtube-nocookie">GitHub</a>.
       </p>
     </section>
     <section>
